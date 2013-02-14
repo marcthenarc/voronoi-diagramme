@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Grains - Voronoï</title>
+		<meta charset="utf-8" />
+
+		<link rel="stylesheet" href="voronoi.css"></style>
+
+		<script type="text/javascript" src="js/rhill-voronoi-core.js"></script>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/paper.js"></script>
+		<script type="text/javascript" src="voronoi.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				var app = new VoronoiApp();
+				app.start("app-canvas");
+			});
+		</script>
+	</head>
+	<body>
+		<div id="menu">
+			<input type="radio" name="radio" id="radio-voronoi" checked="checked"/><label>Diagramme de Voronoï</label>
+			<input type="radio" name="radio" id="radio-delaunay" /><label>Triangulation de Delaunay</label>
+			<button id="erase">Effacer</button>
+		</div>
+		<canvas id="app-canvas" resize></canvas>
+		<div id="foot-menu">
+			<div id="circles" class="c">Afficher les cercles circonscrits</div>
+			<div id="voronoi-edges" class="c">Afficher les arêtes de Voronoï</div>
+			<div id="delaunay-edges" class="c">Afficher les arêtes de Delaunay</div>
+		</div>
+	</body>
+</html>
