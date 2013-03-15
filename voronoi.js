@@ -1,3 +1,5 @@
+jQuery.noConflict();
+
 VoronoiApp = function() {
 	this.width = 600;
 	this.height = 400;
@@ -23,42 +25,42 @@ VoronoiApp.prototype.start = function(canvasId) {
 		me.addPoint(event.point);
 	}
 
-	$("#erase").click(function() {
+	jQuery("#erase").click(function() {
 		me.vertices = [];
 		me.render();
 	});
 
-	$("#radio-voronoi").click(function() {
+	jQuery("#radio-voronoi").click(function() {
 		me.displayVoronoi = true;
 		me.render();
 	});
 
-	$("#radio-delaunay").click(function() {
+	jQuery("#radio-delaunay").click(function() {
 		me.displayVoronoi = false;
 		me.render();
 	});
 
-	$("#circles").mouseover(function() {
+	jQuery("#circles").mouseover(function() {
 		me.render('circle');
 	});
 
-	$("#delaunay-edges").mouseover(function() {
+	jQuery("#delaunay-edges").mouseover(function() {
 		me.render('delaunay');
 	});
 
-	$("#voronoi-edges").mouseover(function() {
+	jQuery("#voronoi-edges").mouseover(function() {
 		me.render('voronoi');
 	});
 
-	$("#delaunay-edges").mouseout(function() {
+	jQuery("#delaunay-edges").mouseout(function() {
 		me.render();
 	});
 
-	$("#voronoi-edges").mouseout(function() {
+	jQuery("#voronoi-edges").mouseout(function() {
 		me.render();
 	});
 
-	$("#circles").mouseout(function() {
+	jQuery("#circles").mouseout(function() {
 		me.render();
 	});
 
