@@ -2,11 +2,11 @@
 	"name": "Diagramme de Voronoï",
 	"width": "600px",
 	"height": "400px",
-	"comment" : "Jouer à conquérir des territoires . . pour comprendre une construction géométrique essentielle pour les modèles numeriques",
+	"comment" : "Une démonstration logicielle. . pour comprendre une construction géométrique essentielle pour les modèles numeriques",
 	"links" : [
 		{
 			"title" : "Document original dans lequel ce grain s'insère",
-			"uri" : "http://interstices.info/jeu-voronoi"
+			"uri" : "http://interstices.info/voronoi"
 		},
 		{
 			"title" : "Applet originale",
