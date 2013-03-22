@@ -14,7 +14,7 @@
 		},
 		{
 			"title" : "Définition de l'objet informatique manipulé",
-			"uri" : "http://fr.wikipedia.org/wiki/Diagramme_de_Voronoï"		
+			"uri" : "http://fr.wikipedia.org/wiki/Diagramme_de_Voronoï"
 		}
 		],
 	"authors" : [
@@ -24,8 +24,8 @@
 			"role" : "auteur",
 			"comment" : "version initiale en Java"
 		},
-		{			
-		        "name" : "Delorme, Marc",
+		{
+		    "name" : "Delorme, Marc",
 			"role" : "auteur",
 			"comment" : "version HTLM5/JS"
 		},
