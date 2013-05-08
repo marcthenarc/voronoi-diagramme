@@ -3,6 +3,7 @@
 	"width": "600px",
 	"height": "400px",
 	"comment" : "Une démonstration logicielle. . pour comprendre une construction géométrique essentielle pour les modèles numeriques",
+	"link" : "http://interstices.info/voronoi",
 	"links" : [
 		{
 			"title" : "Document original dans lequel ce grain s'insère",
